@@ -1,0 +1,12 @@
+2023-01-15 12:23:54,536 INFO trying to read
+2023-01-15 12:23:54,537 DEBUG data:Hello, sir.
+2023-01-15 12:23:56,065 INFO This is a start of read operation 
+2023-01-15 12:23:56,066 INFO i am inside try block of read method 
+2023-01-15 12:23:56,066 INFO I am able to read the file 
+2023-01-15 12:23:56,617 INFO obj not found
+2023-01-15 12:24:59,948 INFO This is a start of read operation 
+2023-01-15 12:24:59,948 INFO i am inside try block of read method 
+2023-01-15 12:24:59,949 INFO I am able to read the file 
+2023-01-15 12:25:04,545 INFO This is a start of read operation 
+2023-01-15 12:25:04,546 INFO i am inside try block of read method 
+2023-01-15 12:25:04,546 INFO I am able to read the file 
