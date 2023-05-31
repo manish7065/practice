@@ -1,0 +1,5 @@
+2023-01-15 12:25:44,676 INFO This is a start of read operation 
+2023-01-15 12:25:44,676 INFO i am inside try block of read method 
+2023-01-15 12:25:44,677 INFO I am able to read the file 
+2023-01-15 12:25:59,707 INFO obj not found
+2023-01-15 12:26:47,309 INFO obj not found
