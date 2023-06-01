@@ -2,7 +2,31 @@ hellohellohellohellohello
 
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDD4hTXsnoAp1qAUIugMfG3Q7EKjB+LmVYtbX/hn/yuBraGVKV+sZV9jD0wg8Op/e4qryKjxHuCrMMttgNXlOjlSI8GF6aFNcZMswisNvIMS7GyVO+f4KPbhq9373Bm182SSHiwDFYy8GWu/gH/gC48X0AX3J/cGQrlLt72gywZSvqxqtN0/x6cekAfSTWSbaAVFVJPvP+2lyOTkFs7Bujuy795Zuye+RUBLjDr9QNR0M2CQpt6ndY+nXWReJJrC2QQfqamVwLZxYUyw8SZVoXJB52cXBmZTdISJZ2JHRhWhH08rB8D5AOPhM3HB/VPSlfocXNX4AnjFOshTKf4otzAA4i3/aftWzpxRE7r5MRCRmOsW/jiQ1OSgiHByar6mus7vIb3XQGg5e5BaQjuJgvKTtv9l27Q+f8x/C6Nd0dgLYxOGRWtkrrIAFyXVD5+/MWf0p9txb40exWzXoCvF90gLbX5Ubml1c/7oNk6DBzLKspEPv4cwiyrLrfsLfAFUrHKJqRQOwnc3MISTy133jwvgWiuHItHW2EuGajv83E722teRxade9qk+SACsO+Y9YfXRao/bdHokSnfPq4mSzY7b7bZIGXL/vHqNugt0F5dbmpvYt2c6ZG4kRpRQ/CDeR4nKU7SIDoiKaUyeAnixjFMECXFheRQGMOO2lyqhnxecw== maimage95@gmail.com
 
+SHA256:+HJAT6W5Vw0/Mz014a0JzKT5K2rHUKAtGs8CyodUxa0 manumi296@gmail.com
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCrFv5Kf2FyGXHymcX5/RmGCXF0XuO1VyW1zD0PnkCPubpJ4vD9IehRr4mQFIYaiH2bzuV8mveCLJ9rKcKRQ9wnAl9BMCNmX7J0Ekpnas69GZLsfg2ZhPiXPPn6Xlz2YkqDfznjRE/yPEmmonMyYeu9dHa2GWs926Fn+jfSHwUW81tvtsT6D9OJNIgqVhALgfBSB09868+Mk0MxpVBnSTfe5VbW2kwYGEggyLWc2fCUA0xVSBSVBBpHWFhFz14Jtl5P8kr0jQKnf9vRYXf+wREKGXkvC+U2718tFyX95+Kskr25QDiJsJtUctJak3nFIgmqiJZ7QpWk8eICMygFCEGpwkqLPzoCuuxdO5AV3pKgmTmON47pMm5Rs1M8k/uWdOv11z8rNfH07q7fPjqyrOHGUsQcWoJp7fvJOAnDjnEKrwFgF2bTOS4uXNh7ylF+14ZxUPIvBqhFhHLQWN+fILmPxtdS83kNkGOOx48iqD8O2IMzCDJVadQvMWEYgH1ORY8BiGuSg4z/Vu4e+nqezasP+1fU3sy1WTmj6zpblGgQkk8PSq9I8DXAYP9F3QPTfZoe7ZW7ySs7NrwGQ4RukO0LNUzi+rA9UEaUlE2dRYK6DchEF1QBxqseoG3wPcb/sXqyuUXlDYyGKPXDRydLtlwwFpbrkUq5lgwtJc0QW+lTcQ== maimage95@gmail.com
+
+ssh -T git@github.com
+
 /home/jovyan/.ssh/id_rsa.pub
 
+ssh-add /home/jovyan/.ssh/id_rsa
+ssh-add ~/.ssh/id_rsa
+
+
+ssh -T git@github.com
+
+
+git config user.name manish
 git config user.name manish
 git config user.email manumi296@gmail.com
+
+
+ssh-keygen -t rsa -b 4096 -C manumi296@gmail.com
+
+#start the agent
+eval "$(ssh-agent -s)"
+
+ssh-add ~/.ssh/id_rsa
+
+cat ~/.ssh/id_rsa
